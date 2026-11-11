@@ -1,0 +1,35 @@
+.features .cards .main{
+    position: relative;
+    overflow: hidden;
+    z-index:1;
+}
+
+.features .cards .main > *{
+    position: relative;
+    z-index:1;
+}
+
+.features .cards .main::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:#C6D936;
+
+    /* start hidden from left */
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .7s ease;
+    z-index:1;
+}
+
+.features .cards .main:hover::before{
+    transform: scaleX(1);
+}
+
+.features .cards .main img{
+    transition: transform .7s ease;
+}
+
+.features .cards .main:hover img{
+    transform: rotateY(360deg);
+}

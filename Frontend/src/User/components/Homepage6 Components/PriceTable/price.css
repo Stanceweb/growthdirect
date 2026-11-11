@@ -1,0 +1,10 @@
+.Price .right .cards .content .left::after{
+    position: absolute;
+    display: block;
+    content: "";
+    height: 100%;
+    width: 0.2px;
+    background-color: gray;
+    opacity: 0.3;
+    left: 100%;
+}

@@ -1,0 +1,24 @@
+.About-us p::before,
+.About-us p::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 500px;        /* line length */
+  height: 1px;
+  background: #ccc;
+}
+
+/* Left line */
+.About-us p::before{
+  right: 110%;
+}
+
+/* Right line */
+.About-us p::after{
+  left: 110%;
+}
+
+
+.swiper-wrapper{
+  transition-timing-function: linear !important;
+}

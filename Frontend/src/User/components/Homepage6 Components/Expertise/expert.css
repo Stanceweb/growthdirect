@@ -1,0 +1,11 @@
+.Expertize .cards .content h3::after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 340px;
+    height: 2px;
+    background-color:gray;
+    opacity: 0.3;
+    left: 0;
+    bottom: 0;
+}

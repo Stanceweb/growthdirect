@@ -1,0 +1,35 @@
+.homepage:hover .home-dp{
+    display: flex;
+    transform: translateY(-5%);
+    transition: all 0.35s cubic-bezier(.175,.885,.32,1.2);
+    opacity: 1;
+    visibility: visible;
+}
+.page:hover .page-dp{
+    display: flex;
+    transform: translateY(-5%);
+    transition: all 0.35s cubic-bezier(.175,.885,.32,1.2);
+    opacity: 1;
+    visibility: visible;
+}
+.service:hover .service-dp{
+    display: flex;
+    transform: translateY(-5%);
+    transition: all 0.35s cubic-bezier(.175,.885,.32,1.2);
+    opacity: 1;
+    visibility: visible;
+}
+.portfolio:hover .portfolio-dp{
+    display: flex;
+    transform: translateY(-5%);
+    transition: all 0.35s cubic-bezier(.175,.885,.32,1.2);
+    opacity: 1;
+    visibility: visible;
+}
+.news:hover .news-dp{
+    display: flex;
+    transform: translateY(-5%);
+    transition: all 0.35s cubic-bezier(.175,.885,.32,1.2);
+    opacity: 1;
+    visibility: visible;
+}

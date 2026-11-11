@@ -1,0 +1,10 @@
+
+.Statics .left p::before{
+    position: absolute;
+    display: block;
+    left: 0px;
+    content: "";
+    height: 60px;
+    width: 2px;
+    background-color: #C6D936;
+}
